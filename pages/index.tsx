@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import Preloader from '@/components/Preloader'
 import Topbar from '@/components/Topbar'
@@ -26,6 +27,7 @@ export default function IndexPage() {
       <Preloader />
       <Topbar />
       <Navbar />
+      <Footer />
       {/* <!-- Optional JavaScript --> */}
       <script src="plugins/jquery/jquery.min.js"></script>
       <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
