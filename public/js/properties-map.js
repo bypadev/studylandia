@@ -31,53 +31,53 @@ function initMap() {
 
   // Info window content
   var infoWindowContent = [
-    ['<a href="property-details.html" class="d-block info_content text-dark text-decoration-none">' +
-      '<img src="assets/img/map/01.jpg" class="img-fluid mb-3 rounded-3 w-100" alt="">' +
+    ['<a href="property-details.html" className="d-block info_content text-dark text-decoration-none">' +
+      '<img src="assets/img/map/01.jpg" className="img-fluid mb-3 rounded-3 w-100" alt="">' +
       '<h5>Koh Samui, Thailand</h5>' +
-      '<div class="text-warning mb-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>' +
+      '<div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>' +
       '<p>The Prospect Park Zoo is a 12-acre (4.9 ha) zoo located off Flatbush Avenue on the eastern side of Prospect Park, Brooklyn, New York City.</p>' +
-      '<a href="#" class="directions-link"><i class="fa-solid fa-compass me-2"></i>Directions</a>' +
-      '<a href="tel:+(123) 456-7890" class="directions-link ms-2"><i class="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
+      '<a href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</a>' +
+      '<a href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
       '</a>'],
-    ['<a href="property-details.html" class="d-block info_content text-dark text-decoration-none">' +
-      '<img src="assets/img/map/02.jpg" class="img-fluid mb-3 rounded-3 w-100" alt="">' +
+    ['<a href="property-details.html" className="d-block info_content text-dark text-decoration-none">' +
+      '<img src="assets/img/map/02.jpg" className="img-fluid mb-3 rounded-3 w-100" alt="">' +
       '<h5>Belle Mare, Mauritius</h5>' +
-      '<div class="text-warning mb-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>' +
+      '<div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>' +
       '<p>The Prospect Park Zoo is a 12-acre (4.9 ha) zoo located off Flatbush Avenue on the eastern side of Prospect Park, Brooklyn, New York City.</p>' +
-      '<a href="#" class="directions-link"><i class="fa-solid fa-compass me-2"></i>Directions</a>' +
-      '<a href="tel:+(123) 456-7890" class="directions-link ms-2"><i class="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
+      '<a href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</a>' +
+      '<a href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
       '</a>'],
-    ['<a href="property-details.html" class="d-block info_content text-dark text-decoration-none">' +
-      '<img src="assets/img/map/03.jpg" class="img-fluid mb-3 rounded-3 w-100" alt="">' +
+    ['<a href="property-details.html" className="d-block info_content text-dark text-decoration-none">' +
+      '<img src="assets/img/map/03.jpg" className="img-fluid mb-3 rounded-3 w-100" alt="">' +
       '<h5>Balian Beach, Indonesia</h5>' +
-      '<div class="text-warning mb-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>' +
+      '<div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>' +
       '<p>The Prospect Park Zoo is a 12-acre (4.9 ha) zoo located off Flatbush Avenue on the eastern side of Prospect Park, Brooklyn, New York City.</p>' +
-      '<a href="#" class="directions-link"><i class="fa-solid fa-compass me-2"></i>Directions</a>' +
-      '<a href="tel:+(123) 456-7890" class="directions-link ms-2"><i class="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
+      '<a href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</a>' +
+      '<a href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
       '</a>'],
-    ['<a href="property-details.html" class="d-block info_content text-dark text-decoration-none">' +
-      '<img src="assets/img/map/04.jpg" class="img-fluid mb-3 rounded-3 w-100" alt="">' +
+    ['<a href="property-details.html" className="d-block info_content text-dark text-decoration-none">' +
+      '<img src="assets/img/map/04.jpg" className="img-fluid mb-3 rounded-3 w-100" alt="">' +
       '<h5>Pantai Nyanyi, Indonesia</h5>' +
-      '<div class="text-warning mb-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>' +
+      '<div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>' +
       '<p>The Prospect Park Zoo is a 12-acre (4.9 ha) zoo located off Flatbush Avenue on the eastern side of Prospect Park, Brooklyn, New York City.</p>' +
-      '<a href="#" class="directions-link"><i class="fa-solid fa-compass me-2"></i>Directions</a>' +
-      '<a href="tel:+(123) 456-7890" class="directions-link ms-2"><i class="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
+      '<a href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</a>' +
+      '<a href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
       '</a>'],
-    ['<a href="property-details.html" class="d-block info_content text-dark text-decoration-none">' +
-      '<img src="assets/img/map/05.jpg" class="img-fluid mb-3 rounded-3 w-100" alt="">' +
+    ['<a href="property-details.html" className="d-block info_content text-dark text-decoration-none">' +
+      '<img src="assets/img/map/05.jpg" className="img-fluid mb-3 rounded-3 w-100" alt="">' +
       '<h5>Koh Samui, Thailand</h5>' +
-      '<div class="text-warning mb-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>' +
+      '<div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>' +
       '<p>The Prospect Park Zoo is a 12-acre (4.9 ha) zoo located off Flatbush Avenue on the eastern side of Prospect Park, Brooklyn, New York City.</p>' +
-      '<a href="#" class="directions-link"><i class="fa-solid fa-compass me-2"></i>Directions</a>' +
-      '<a href="tel:+(123) 456-7890" class="directions-link ms-2"><i class="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
+      '<a href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</a>' +
+      '<a href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
       '</a>'],
-    ['<a href="property-details.html" class="d-block info_content text-dark text-decoration-none">' +
-      '<img src="assets/img/map/06.jpg" class="img-fluid mb-3 rounded-3 w-100" alt="">' +
+    ['<a href="property-details.html" className="d-block info_content text-dark text-decoration-none">' +
+      '<img src="assets/img/map/06.jpg" className="img-fluid mb-3 rounded-3 w-100" alt="">' +
       '<h5>Koh Samui, Thailand</h5>' +
-      '<div class="text-warning mb-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>' +
+      '<div className="text-warning mb-2"><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star-half-stroke"></i><i className="fa-regular fa-star"></i></div>' +
       '<p>The Prospect Park Zoo is a 12-acre (4.9 ha) zoo located off Flatbush Avenue on the eastern side of Prospect Park, Brooklyn, New York City.</p>' +
-      '<a href="#" class="directions-link"><i class="fa-solid fa-compass me-2"></i>Directions</a>' +
-      '<a href="tel:+(123) 456-7890" class="directions-link ms-2"><i class="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
+      '<a href="#" className="directions-link"><i className="fa-solid fa-compass me-2"></i>Directions</a>' +
+      '<a href="tel:+(123) 456-7890" className="directions-link ms-2"><i className="fa-solid fa-phone me-2"></i>(123) 456-7890</a>' +
       '</a>']
   ];
 

@@ -24,7 +24,7 @@
     /*-------------------------------------------
         To Top
     --------------------------------------------- */
-    $('body').append('<div id="toTop" class="btn-top"><i class="fa-solid fa-arrow-up"></i></div>');
+    $('body').append('<div id="toTop" className="btn-top"><i className="fa-solid fa-arrow-up"></i></div>');
     $(window).scroll(function () {
         if ($(this).scrollTop() !== 0) {
             $('#toTop').fadeIn();
